@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+        <tittle> site cear </tittle>
+        <style>
+            html
+            {
+                scroll-behavior: smooth;
+            } 
+            #home
+            {
+                margin-top: -10%;
+                padding-bottom: 0%;
+            }
+            #info
+            {
+                margin-top: 61.5%;
+                padding-bottom: 25%;
+            }
+           
+            #web
+            {
+                margin-top: 85%;
+                padding-top: 25%;
+            }
+            .tittle1
+            {
+                
+                position: absolute;
+                left: 18%;
+                top: 23%;
+                font-size: 340%;
+                color: orange;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            .tittle2
+            {
+                
+                position: absolute;
+                left: 18%;
+                top: 31%;
+                font-size: 340%;
+                color: black;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            .firstimgbg
+            {
+                position: absolute;
+                top: 1%;
+                border: 3px solid orange;
+            }
+            .menubarimg
+            {
+                position: absolute;
+                top: 0%;
+                border-bottom-right-radius:  20px;
+                border-bottom-left-radius: 20px;
+            }
+            .picture1
+            {
+                position: absolute;
+                top: 74%;
+                left: 17%;
+                border: 3px solid orange;
+                border-radius: 20px;
+            }
+            .techsettlogo
+            {
+                position: absolute;
+                top: 77%;
+                left: 29%;
+            }
+            .htmllogo
+            {
+                position: absolute;
+                top: 73.8%;
+                left: 61%;
+            }
+            .itlogo
+            {
+                position: absolute;
+                top: 74.4%;
+                left: 43.8%;
+            }
+            
+            body {margin:0;}
+            .icon-bar
+             {
+                position: absolute;
+                top:3%;
+                left: 48%;
+                width: 50%;
+                background-color: white;
+                overflow: auto;
+                box-sizing: content-box;
+            }
+            .icon-bar a 
+                {
+                    float: left;
+                    width: 20%;
+                    text-align: center;
+                    padding: 12px 0;
+                    transition: all 0.3s ease;
+                    color: orange;
+                    font-size: 36px;
+                }
+
+            .icon-bar a:hover 
+                {
+                    background-color: #000;
+                }
+            .active
+                {
+                    background-color: rgb(255, 223, 184);
+                }
+            .TECH
+            {
+                position: absolute;
+                top: 87%;
+                left: 30.5%;
+                font-size: 190%;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .IT 
+            {
+                position: absolute;
+                top: 87%;
+                left: 48%;
+                font-size: 190%;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .HTMLCSS
+            {
+                position: absolute;
+                top: 87%;
+                left: 62.5%;
+                font-size: 190%;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            
+            .hometittle
+            {
+                position: absolute;
+                top: 105%;
+                left: 3%;
+                font-size: 500%;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: orange;
+                border: 4px solid rgb(0, 0, 0);
+                border-radius: 30px;
+                box-sizing: border-box;
+                width: 42%;
+                text-align: center;
+                background-color: white;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                background-image: url(images/abstract-futuristic-network-shapes-high-tech-background-connecting-lines-dots-polygonal-linear-texture-world-map-white-97706527.jpg);
+            }
+            .text1
+            {  
+                position: absolute;
+                top: 124.8%;
+                left: 3%;
+                font-size: 210%;
+                width: 40%;
+                color: black;
+                border: 4px solid black;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+            .dom1
+            {
+                
+                position: absolute;
+                top: 109%;
+                left: 47%;
+                font-size: 250%;
+                width: 49%;
+                border: 4px solid black;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                color: orange;
+                background-image: url(images/background-image-for-website-15.jpg);
+                border-radius: 20px;
+            }
+            .text2
+            {
+                position: absolute;
+                top: 124%;
+                left: 47%;
+                font-size: 250%;
+                width: 49%;
+                color: black;
+                border: 4px solid black;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+            .dom2
+            {
+                position: absolute;
+                top: 159%;
+                left: 47%;
+                font-size: 250%;
+                width: 49%;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                border:4px solid black;
+                color: orange;
+                background-image: url(images/background-image-for-website-15.jpg);
+                border-radius: 20px;
+            }
+            .text3
+            {
+                position: absolute;
+                top: 170%;
+                left: 47%;
+                font-size: 250%;
+                width: 49%;
+                color: black;
+                border: 4px solid black;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+      
+            .dom3
+            {
+                position: absolute;
+                top: 208%;
+                left: 15%;
+                font-size: 350%;
+                width: 68%;
+                color: orange;
+                border:4px solid black;
+                border-radius: 20px;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                background-image: url(images/background-image-for-website-15.jpg);
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                text-align: center;
+            }
+            .text5
+            {
+                position: absolute;
+                top: 229%;
+                left: 17%;
+                font-size: 250%;
+                width: 65%;
+                color:black;
+                text-align: center;
+            }
+
+            .sidebar 
+            {
+                height: 30%;
+                width: 0%;
+                position: fixed;
+                z-index: 1;
+                top: 30%;
+                left: 0;
+                background-color: rgb(255, 255, 255);
+                border: 2px solid orange ;
+                border-bottom-right-radius: 25px;
+                border-top-right-radius: 25px;
+                overflow-x: hidden;
+                transition: 0.3s;
+                padding-top: 50px;
+            }
+
+            .sidebar a 
+            {
+                padding: 8px 8px 8px 26px;
+                text-decoration: none;
+                font-size: 35px;
+                color: rgb(255, 202, 104);
+                display:block;
+                transition: 0.3s;
+                
+            }
+
+            .sidebar a:hover 
+            {
+                color: bisque;
+            }
+
+            .sidebar .closebtn 
+            {
+                position: absolute;
+                top: 0%;
+                right: 25px;
+                font-size: 40px;
+                margin-left: 30px;
+                
+            }
+
+            .openbtn 
+            {
+                font-size: 20px;
+                cursor: pointer;
+                background-color: rgb(255, 255, 255);
+                border-radius: 30px;
+                border: 2px solid orange;
+                color:black;
+                padding: 10px 15px;
+            }
+
+            .openbtn:hover 
+            {
+                background-color: rgb(255, 250, 176);
+            }
+
+            #main 
+            {
+                transition: margin-left 0.3s;
+                padding: 16px;
+            }
+            @media screen and (max-height: 90px) 
+            {
+                .sidebar {padding-top: 15px;}
+                .sidebar a {font-size: 18px;}
+            }
+            .openbtn
+            {
+                position: fixed;
+                top: 92%;
+                left: 2%;
+            }
+            .carierait
+            {
+                position: absolute;
+                top: 250%;
+                left: 15%;
+                font-size: 500%;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: orange;
+                border: 4px solid rgb(0, 0, 0);
+                border-radius: 30px;
+                box-sizing: border-box;
+                width: 70%;
+                text-align: center;
+                background-color: white;
+                background-image: url(images/abstract-futuristic-network-shapes-high-tech-background-connecting-lines-dots-polygonal-linear-texture-world-map-white-97706527.jpg);
+            }
+            .pc 
+            {
+                position: absolute;
+                top: 166%;
+                left: 10%;
+                width:500px;
+                height:400px;
+            }
+            .text6
+            {
+                position: absolute;
+                top: 274.8%;
+                left: 18%;
+                font-size: 290%;
+                width: 65%;
+                color: black;
+                text-align:start;
+            }
+            .imgweb1
+            {
+                position: absolute;
+                top: 340%;
+                width: 99.6%;
+                height: 85%;
+                border: 4px solid black;
+            }
+            .websitetittle
+            {
+                position: absolute;
+                top: 332%;
+                left: 18%;
+                font-size: 250%;
+                color: orange;
+                border-radius: 20px;
+                border: 4px solid black;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                width: 60%;
+                text-align: center;
+                background-image: url(images/abstract-futuristic-network-shapes-high-tech-background-connecting-lines-dots-polygonal-linear-texture-world-map-white-97706527.jpg);
+
+            }
+            .video1
+            {
+                position: absolute;
+                left: 20%;
+                top: 355%;
+            }
+            .video2
+            {
+                position: absolute;
+                left: 60%;
+                top: 355%;
+            }
+            .video3
+            {
+                position: absolute;
+                left: 60%;
+                top: 385%;
+            }
+            .video4
+            {
+                position: absolute;
+                left: 20%;
+                top: 385%;
+            }
+          
+        </style>
+
+    </head>
+    <body>
+        <div class = "texthome" >Ce este o cariera in IT?</div>
+
+
+        <div class="backgroundimg">
+            <img src="images/background-image-for-website-15.jpg" class="firstimgbg" style="width:99.69%;height:800px">
+            <img src="images/11386(1).jpg" class="menubarimg" style="width:99.89%;height:140px">
+            <img src="images/color2.png" class="picture1" style="width:65%;height:200px">  
+            <img src="images/free-settings-icon-960-thumb.png" class="techsettlogo" style="width:120px;height:120px">
+            <img src="images/istockphoto-1206193220-612x612.png" class="htmllogo" style="width:180px;height:180px">
+            <img src="images/360_F_163915196_rpszYhZQ3iGWlh32rxFIEQs3iTROCmKu.png" class="itlogo" style="width:180px;height:180px">
+           
+        
+            <p class="tittle1">Ce este o carieră în IT & TECH? </p> 
+            <p class="tittle2">Cum imi aleg cariera în IT? </p>
+            <p class="IT"> IT </p>
+            <p class="TECH"> TECH </p>
+            <p class="HTMLCSS"> HTML/CSS </p>
+            </p>
+
+
+
+        </div>
+
+          <div class="icon-bar">
+               <a class="active" href="#home"> <i class="fa fa-home"> </i> </a>
+                <a href="#info"><i class="fa fa-search"></i></a> 
+                <a href="#web"><i class="fa fa-globe"></i></a>
+                <a href="https://www.instagram.com/l_e.gache/" target="_blank"><i class="fa fa-user-o"></i></a> 
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSMTtWMmprQKdRTzfwGkBPzDctnHzRHwVdwDsFvstsPtFrnSdNfPmpHNSZGqnhhWJtszSFsq" target="_blank"><i class="fa fa-envelope-open"></i></a> 
+                 
+            </div>
+
+     
+        <div class="textt">
+           
+            <img src="images/background-image-for-website-15.jpg" class="imgweb1">
+            <img src="images/IMG_20190708_101325_546-1-1.webp" class="pc"> 
+            <a href="https://www.youtube.com/watch?v=b_P0nWVM4kM" target="_blank" class="video1"> <img src="images/video1.PNG"></a>
+            <a href="https://www.youtube.com/watch?v=y9Vx857eQVo" target="_blank" class="video2"> <img src="images/video2.PNG"></a>
+            <a href="https://www.youtube.com/watch?v=fz73Azmo8fA" target="_blank" class="video3"> <img src="images/video3.PNG"></a>
+            <a href="https://www.youtube.com/watch?v=-Wb1pnKYFP8" target="_blank" class="video4"> <img src="images/video4.png"></a> 
+            <p class="hometittle"> IT & TECH </p>
+            <p class="websitetittle"> VIDEO-URI YOUTUBE </p>
+            <p class="carierait"> O CARIERA IN IT&TECH </p>
+            <p class="text1">      Definiția generală a IT-ului sau Tehnologiei Informației este tehnologia necesară pentru prelucrarea informației, în particular prin folosirea computerelor, însă noi
+                vedem IT-ul ca pe un domeniu în continuă schimbare și dezvoltare, căutat pentru salariile bine plătite, dar și pentru entertaining-ul personal.
+                Însă, acest domeniu produce multe confuzii în rândul persoanelor, cele mai des întâlnite fiind: </p>
+            <p class="dom1"> 1. "Industria IT si TECH este o comuninate închisă, în care este greu să te introduci." </p>
+            <p class="text2"> De fapt, industria IT este extrem de variată. În comuninatea persoanelor ce lucrează în această industrie se regăsesc persoane de toate vârstele,
+                din medii sociale diferite și din toată lumea. Exemplu, România se află pe locul 6 pe plan internațional și pe primul loc în Europa cu cei mai mulți angajați în industrie. 
+            </p>
+            <p class="dom2"> 2. "IT-ul se axează numai pe programare" </p>
+            <p class="text3"> O confuzie întâlnită foarte des este asumarea totală IT-ului cu programarea/coding. În industria IT există job uri ce nu implică programare, aceste job uri fiind și bine plătite.
+                Însă cunoștiintele despre coding , chiar și cele de baza, te vor ajută foarte mult , chiar dacă lucrezi în IT sau nu. 
+                </p>
+            <p class="text4"> Că să răspund la prima întrebare, </p>
+            <p class="dom3"> Ce este o carieră în IT & TECH? </p>
+            <p class="text5">O carieră în IT & TECH este o alegere ce oferă posibilitatea nu numai unei dezvoltări individuale, dar și colective, indiferent de factorul ce determina să alegi această industrie.</p>
+            <p class="text6"> 
+                Trebuie să știi ce îți dorești și ce te pasionează să faci.Pe lângă, trebuie să știi și că IT-ul este și devine din ce în ce mai prezent în orice industrie – retail, design, bănci, sănătate și nu numai. Practic, IT-ul oferă infrastructură și instrumentele necesare fiecărei organizații,
+                astfel această industrie îți oferă o mulțime de posibilități. Descrierile joburilor sunt, la rândul lor, diverse. Sunt joburi care necesită mai multă capacitate de analiză sau mai multe abilitați de interacțiune umană.
+                Sunt joburi care merg mai mult în direcția tehnică sau în cea creativă. Opțiunile sunt nelimitate. 
+            </p>
+        </div>
+
+
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="#home"> <i class="fa fa-home"> </i> </a>
+            <a href="#info"><i class="fa fa-search"></i></a> 
+            <a href="#web"><i class="fa fa-globe"></i></a>
+            <a href="https://www.instagram.com/l_e.gache/" target="_blank"><i class="fa fa-user-o"></i></a>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSMTtWMmprQKdRTzfwGkBPzDctnHzRHwVdwDsFvstsPtFrnSdNfPmpHNSZGqnhhWJtszSFsq" target="_blank"><i class="fa fa-envelope-open"></i></a> 
+          </div>
+
+          <div id="main">
+            <button class="openbtn" onclick="openNav()">☰</button>  
+          </div>
+
+          <script>
+
+            function openNav() 
+            {
+                document.getElementById("mySidebar").style.width = "85px";
+                document.getElementById("main").style.marginLeft = "0px";
+            }
+
+            function closeNav() 
+            {
+                document.getElementById("mySidebar").style.width = "0";
+                document.getElementById("main").style.marginLeft= "0";
+            }     
+
+            </script>
+
+        
+        <div id="home"></div> 
+        <div id="info"></div> 
+        <div id="web"></div>
+    </body>
+</html>
